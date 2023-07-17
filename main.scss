@@ -1,0 +1,66 @@
+$theme-colors: (
+  "primary": #d9c000,
+);
+
+
+@import "node_modules/bootstrap/scss/bootstrap"; 
+
+// Main section
+#main-section {
+    background-image: url(hotel.jpg);
+    color: white;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 7rem;
+}
+
+form label, .btn {
+    font-size: 1.5rem;
+}
+
+
+
+// Historie
+#obr {
+    width: 100%;
+    height: auto;
+}
+
+// Galerie
+#galerie img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.591);
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.prvni-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.druhy-font {
+    font-family: 'Playfair Display', serif;
+}
+
+// Kontakt
+.ikony {
+    max-height: 100px;
+    width: auto;
+    margin: 4% auto;
+    display: block;
+}
+
+.ikony-mensi {
+    max-height: 50px;
+    width: auto;
+    display: block;
+    margin: 4% auto;
+}
